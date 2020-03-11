@@ -1,0 +1,37 @@
+{
+  "name": "Mapable",
+  "version": "1.0.0",
+  "description": "Project developed for the exam of the Mobile Application and Cloud Computing",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmin92/mapable.git"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "SQLite3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmin92/mapable/issues"
+  },
+  "homepage": "https://github.com/cosmin92/mapable#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2"
+  }
+}
